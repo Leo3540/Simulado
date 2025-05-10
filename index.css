@@ -140,8 +140,8 @@ body {
 }
 .Seletora{
   position: absolute;
-  top: 180px;
-  left: 170px;
+  top: 175px;
+  left: 150px;
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -150,69 +150,97 @@ body {
 .TraçoSeletora{
   position: absolute;
   top: 15px;
-  left: 14px;
+  left: 12px;
   display: block;
   width: 30px;
   height: 6px;
   background: white;
-  transform: rotate(80deg);
+  transform: rotate(70deg);
 }
 .P4{
   position: absolute;
   top: 120px;
-  left: 120px;
+  left: 110px;
   display: block;
-  width: 50px;
-  height: 6px;
+  width: 40px;
+  height: 3px;
   background: #000;
+}
+.P4 .texto{
+ position: absolute;
+ top: 23px;
+ left: 50px;
+ font-family: sans-serif;
+ font-weight: bolder;
 }
 .P5{
   position: absolute;
   top: 130px;
-  left: 160px;
+  left: 143px;
   display: block;
-  width: 30px;
-  height: 6px;
+  width: 25px;
+  height: 3px;
   background: #000;
   transform: rotate(60deg);
-  border-radius: 6px;
+  border-radius: 8px;
 }
 .P3{
   position: absolute;
   top: 170px;
-  left: 120px;
+  left: 110px;
   display: block;
   width: 25px;
-  height: 6px;
+  height: 3px;
   background: #000;
+}
+.P3 .texto{
+ position: absolute;
+ top: 0;
+ left: 25px;
+ font-family: sans-serif;
+ font-weight: bolder;
 }
 .P2{
   position: absolute;
   top: 225px;
-  left: 120px;
+  left: 110px;
   display: block;
   width: 25px;
-  height: 6px;
+  height: 3px;
   background: #000;
+}
+.P2 .texto{
+ position: absolute;
+ top: 0;
+ left: 25px;
+ font-family: sans-serif;
+ font-weight: bolder;
 }
 .P1{
   position: absolute;
   top: 280px;
-  left: 120px;
+  left: 110px;
   display: block;
-  width: 50px;
-  height: 6px;
+  width: 40px;
+  height: 3px;
   background: #000;
+}
+.P1 .texto{
+ position: absolute;
+ top: -35px;
+ left: 65px;
+ font-family: sans-serif;
+ font-weight: bolder;
 }
 .P6{
   position: absolute;
-  top: 270px;
-  left: 160px;
+  top: 269px;
+  left: 145px;
   display: block;
   width: 28px;
-  height: 6px;
+  height: 3px;
   background: #000;
-  transform: rotate(-60deg);
+  transform: rotate(-50deg);
   border-radius: 6px;
 }
 .P8{
@@ -220,21 +248,22 @@ body {
   top: 280px;
   left: 210px;
   display: block;
-  width: 50px;
-  height: 6px;
+  width: 25px;
+  height: 3px;
   background: #000;
 }
 .P7{
   position: absolute;
   top: 270px;
-  left: 190px;
+  left: 189px;
   display: block;
   width: 28px;
-  height: 6px;
+  height: 3px;
   background: #000;
-  transform: rotate(60deg);
+  transform: rotate(50deg);
   border-radius: 6px;
 }
+
 .SinopticoCargaProtegida{
   position: absolute;
   top: 50px;
@@ -266,13 +295,13 @@ body {
   top: 145px;
   left: 235px;
   width: 115PX;
-  height: 115PX;
+  height: 140PX;
   background: none;
   border: solid 3px gray;
 }
 .LabelConfirmaçãoDesligamento{
   position: absolute;
-  top: 80px;
+  top: 100px;
   left: 8px;
   width: 100px;
   height: 30px;
@@ -286,7 +315,7 @@ body {
 }
 .ConfimaçãoDesligar{
   position: absolute;
-  top: 10px;
+  top: 25px;
   left: 30px;
   width: 60px;
   height: 60px;
@@ -315,7 +344,7 @@ body {
   position: absolute;
   top: 70PX;
   left: 10PX;
-  width: 110PX;
+  width: 100PX;
   height: 250PX;
   background: gray;
 }
@@ -323,7 +352,7 @@ body {
  position: absolute;
  top: 190px;
  left: 6px;
- width: 96px;
+ width: 90px;
  height: 43px;
  font-size: 10px;
  font-family: sans-serif;
@@ -335,7 +364,7 @@ background: gray;
  position: absolute;
  top: 135px;
  left: 6px;
- width: 96px;
+ width: 90px;
  height: 43px;
  font-size: 10px;
  font-family: sans-serif;
@@ -347,7 +376,7 @@ background: gray;
  position: absolute;
  top: 80px;
  left: 6px;
- width: 96px;
+ width: 90px;
  height: 43px;
 font-size: 10px;
  font-family: sans-serif;
@@ -359,7 +388,7 @@ font-size: 10px;
  position: absolute;
  top: 30px;
  left: 6px;
- width: 96px;
+ width: 90px;
  height: 43px;
  font-size: 10px;
  font-family: sans-serif;
