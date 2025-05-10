@@ -12,7 +12,7 @@ body {
   position: relative;
   margin: 0;
   height: 100vh;
-  background: linear-gradient(to bottom, #fafbfc, #3c4a5c);
+  background: linear-gradient(to bottom, #fafbfc, gray);
 }
 .Painel {
   position: absolute;
@@ -21,6 +21,267 @@ body {
   width: 800px;
   height: 570px;
   background: #8d8e8f;
+}
+.PainelStatusAlarme{
+  position: absolute;
+  top: 0;
+  left: 830px;
+  width: 360px;
+  height: 140px;
+  background: none;
+  border: solid 4px gray;
+}
+.PainelStatusAlarme h1{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: #a9a9a9;  /* cinza */
+  border: 1px solid #000;     /* borda preta */
+  width: 125px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.PainelStatusAlarme h2{
+  position: absolute;
+  top: 105px;
+  left: 6px;
+  background-color: #a9a9a9;  /* cinza */
+  border: 1px solid #000;     /* borda preta */
+  width: 90px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 7px;
+  font-weight: bolder;
+}
+.PainelStatusAlarme h3{
+  position: absolute;
+  top: 105px;
+  left: 133px;
+  background-color: #a9a9a9;  /* cinza */
+  border: 1px solid #000;     /* borda preta */
+  width: 90px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 7px;
+  font-weight: bolder;
+}
+.PainelStatusAlarme h4{
+  position: absolute;
+  top: 105px;
+  left: 255px;
+  background-color: #a9a9a9;  /* cinza */
+  border: 1px solid #000;     /* borda preta */
+  width: 90px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 7px;
+  font-weight: bolder;
+}
+.PainelStatusAlarme-Verde{
+  position: absolute;
+  top: 55px;
+  left: 30px;
+  width: 40px;
+  height: 40px;
+  background: green;
+  background: green;
+  border-radius: 100%;
+  border: solid 3px;
+  box-shadow: 0 0 5px green, 0 0 10px green, 0 0 15px green, 0 0 0px green;
+}
+.PainelStatusAlarme-Amarelo{
+  position: absolute;
+  top: 55px;
+  left: 160px;
+  width: 40px;
+  height: 40px;
+  background: yellow;
+  background: yellow;
+  border-radius: 100%;
+  border: solid 3px;
+  box-shadow: 0 0 5px yellow, 0 0 10px yellow, 0 0 15px yellow, 0 0 0px yellow;
+  opacity: 0.2;
+}
+.PainelStatusAlarme-Vermelho{
+  position: absolute;
+  top: 55px;
+  left: 278px;
+  width: 40px;
+  height: 40px;
+  background: red;
+  background: red;
+  border-radius: 100%;
+  border: solid 3px;
+  box-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red, 0 0 0px red;
+  opacity: 0.2;
+}
+.PainelComando{
+  position: absolute;
+  top: 150px;
+  left: 830px;
+  width: 360px;
+  height: 330px;
+  background: none;
+  border: solid 4px gray;
+}
+.SinopticoCargaProtegida{
+  position: absolute;
+  top: 50px;
+  left: 275px;
+  width: 40PX;
+  height: 40PX;
+  background: rgb(3, 3, 71);
+  background: rgb(3, 3, 71);
+  border: solid 3px;
+  box-shadow: 0 0 5px rgb(3, 3, 71), 0 0 10px rgb(3, 3, 71), 0 0 15px rgb(3, 3, 71), 0 0 0px rgb(3, 3, 71);
+ 
+}
+.LabelCargaSegura{
+  position: absolute;
+  top: 105px;
+  left: 245px;
+  width: 100px;
+  height: 30px;
+  background: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8px;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+.BotãoEmergencia{
+  position: absolute;
+  top: 145px;
+  left: 235px;
+  width: 115PX;
+  height: 115PX;
+  background: none;
+  border: solid 3px gray;
+}
+.LabelConfirmaçãoDesligamento{
+  position: absolute;
+  top: 80px;
+  left: 8px;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8px;
+  font-weight: bolder;
+  font-family: sans-serif;
+  background: gray;
+}
+.ConfimaçãoDesligar{
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  width: 60px;
+  height: 60px;
+  border: solid 2px;
+  border-radius: 50%;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 5px #c1c2c2;
+  background: red;
+}
+.PainelComando h1{
+  position: absolute;
+  top: 6PX;
+  left: 10PX;
+  width: 150PX;
+  height: 35PX;
+  border: solid 1PX;
+  background: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-weight: bolder;
+}
+.CiaxaPainelComando{
+  position: absolute;
+  top: 70PX;
+  left: 10PX;
+  width: 130PX;
+  height: 220PX;
+  background: gray;
+}
+.CiaxaPainelComando h1{
+  position: absolute;
+  top: 15PX;
+  left: 6PX;
+  width: 115PX;
+  height: 40PX;
+  border: solid 1PX;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-weight: bolder;
+}
+.CiaxaPainelComando h2{
+  position: absolute;
+  top: 65PX;
+  left: 6PX;
+  width: 115PX;
+  height: 40PX;
+  border: solid 1PX;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-weight: bolder;
+}
+.CiaxaPainelComando h3{
+  position: absolute;
+  top: 115PX;
+  left: 6PX;
+  width: 115PX;
+  height: 40PX;
+  border: solid 1PX;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-weight: bolder;
+}
+.CiaxaPainelComando h4{
+  position: absolute;
+  top: 164PX;
+  left: 6PX;
+  width: 115PX;
+  height: 40PX;
+  border: solid 1PX;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-weight: bolder;
+}
+.PainelBypassGeral{
+  position: absolute;
+  top: 490px;
+  left: 830px;
+  width: 360px;
+  height: 130px;
+  background: none;
+  border: solid 4px gray;
 }
 .IHM {
   position: absolute;
